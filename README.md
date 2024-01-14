@@ -1,7 +1,7 @@
 # K8s manifest file
 <br>
 
-**Hello this repo contain K8s manifest file**
+**Hello🙌, this repo contain K8s manifest file**
 <br>
 - Pod
 - Deployment
