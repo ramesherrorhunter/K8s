@@ -3,7 +3,6 @@
 
 **Hello this repo contain K8s manifest file**
 <br>
-
 - Pod
 - Deployment
 - Service
