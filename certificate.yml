@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: happy-com-certificate
+  namespace: your-namespace
+spec:
+  secretName: happy-com-tls-secret
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: happy.com
+  dnsNames:
+    - happy.com
